@@ -1,0 +1,8 @@
+1;Eduardo Morais;73.0;Masculino;19;1.83
+7;Arthur Rodovalho;64.0;Masculino;19;1.8
+8;Vinicio;101.0;Masculino;19;1.83
+9;Artur;55.0;Masculino;20;1.65
+3;Vinicius Morais;85.0;Masculino;24;1.75
+5;Jaqueline Morais;98.0;Feminino;40;1.79
+2;Ivone Aparecida;69.0;Feminino;58;1.67
+4;Marta Tereza;78.0;Feminino;69;1.6

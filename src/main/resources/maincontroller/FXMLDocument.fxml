@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="501.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maincontroller.FXMLDocumentController">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="470.0" prefWidth="804.0">
+         <children>
+            <Button fx:id="botaoNovo" layoutX="115.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Novo" />
+            <Button fx:id="botaoRelatorio" layoutX="432.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Relatorio" />
+            <Button fx:id="botaoSair" layoutX="632.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Sair" />
+            <TextField fx:id="textCod" layoutX="72.0" layoutY="15.0" prefHeight="25.0" prefWidth="720.0" />
+            <Label fx:id="t" layoutX="14.0" layoutY="20.0" text="Codigo:" />
+            <Label layoutX="14.0" layoutY="50.0" text="Nome:" />
+            <Label layoutX="14.0" layoutY="80.0" text="Peso:" />
+            <Label layoutX="14.0" layoutY="110.0" text="Genero:" />
+            <Label layoutX="14.0" layoutY="140.0" text="Idade:" />
+            <Label layoutX="14.0" layoutY="170.0" text="Atura:" />
+            <TextField fx:id="textNome" layoutX="72.0" layoutY="45.0" prefHeight="25.0" prefWidth="720.0" />
+            <TextField fx:id="textPeso" layoutX="72.0" layoutY="75.0" prefHeight="25.0" prefWidth="720.0" />
+            <ComboBox fx:id="barraGenero" layoutX="72.0" layoutY="105.0" prefHeight="25.0" prefWidth="720.0" />
+            <TextField fx:id="textIdade" layoutX="72.0" layoutY="135.0" prefHeight="25.0" prefWidth="720.0" />
+            <TextField fx:id="textAltura" layoutX="72.0" layoutY="165.0" prefHeight="25.0" prefWidth="720.0" />
+            <Button fx:id="botaoConsultar" layoutX="203.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Consultar" />
+            <Button fx:id="botaoExcluir" layoutX="308.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Excluir" />
+            <Button fx:id="botaoAlterar" layoutX="533.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Alterar" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
